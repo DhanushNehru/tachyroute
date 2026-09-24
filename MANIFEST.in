@@ -1,0 +1,19 @@
+include README.md
+include LICENSE
+include CONTRIBUTING.md
+
+# Include all python files in the package
+recursive-include tachyroute *.py
+
+# Exclude test directories and examples from the published PyPI package
+# (We don't need to ship tests to users who just pip install it)
+prune tests
+prune examples
+prune docs
+prune .github
+
+# Exclude junk files globally
+global-exclude *.py[cod]
+global-exclude __pycache__
+global-exclude *.so
+global-exclude .DS_Store

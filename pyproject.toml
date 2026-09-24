@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tachyroute"
+version = "0.1.0"
+description = "Multimodal, Explainable, Early-Exit Decision Engine"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache 2.0" }
+authors = [
+  { name = "Your Name", email = "your.email@example.com" }
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "torch>=2.1.0",
+    "transformers>=4.40.0",
+    "numpy",
+    "huggingface-hub",
+    "pydantic>=2.0.0"
+]
+
+[project.optional-dependencies]
+serve = ["fastapi", "uvicorn"]
+test = ["pytest"]
+
+[project.urls]
+"Homepage" = "https://github.com/yourusername/tachyroute"
+"Bug Tracker" = "https://github.com/yourusername/tachyroute/issues"
