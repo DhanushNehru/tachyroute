@@ -4,9 +4,13 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/DhanushNehru/tachyroute/graphs/contributors"><img src="https://img.shields.io/github/contributors/DhanushNehru/tachyroute?style=flat-square" alt="Contributors"></a>
+  <a href="https://pypi.org/project/tachyroute/"><img src="https://img.shields.io/pypi/v/tachyroute.svg?style=flat-square&color=blue" alt="PyPI version"></a>
+  <a href="https://pypi.org/project/tachyroute/"><img src="https://img.shields.io/pypi/pyversions/tachyroute.svg?style=flat-square" alt="Python Versions"></a>
+  <a href="https://huggingface.co/dhanushnehru/tachyroute-base"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Model-dhanushnehru%2Ftachyroute--base-blue?style=flat-square" alt="Hugging Face Model"></a>
+  <a href="https://huggingface.co/spaces/dhanushnehru/tachyroute-demo"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Space-TachyRoute%20Demo-orange?style=flat-square" alt="Hugging Face Space"></a>
+  <a href="https://colab.research.google.com/drive/19LKOCIoAVA37AlkDNe3IhYSq3Jk4EZxk"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
+  <a href="https://github.com/DhanushNehru/tachyroute/stargazers"><img src="https://img.shields.io/github/stars/DhanushNehru/tachyroute?style=flat-square&color=gold" alt="Stars"></a>
   <a href="https://github.com/DhanushNehru/tachyroute/network/members"><img src="https://img.shields.io/github/forks/DhanushNehru/tachyroute?style=flat-square" alt="Forks"></a>
-  <a href="https://github.com/DhanushNehru/tachyroute/stargazers"><img src="https://img.shields.io/github/stars/DhanushNehru/tachyroute?style=flat-square" alt="Stars"></a>
   <a href="https://github.com/DhanushNehru/tachyroute/issues"><img src="https://img.shields.io/github/issues/DhanushNehru/tachyroute?style=flat-square" alt="Issues"></a>
   <a href="https://github.com/DhanushNehru/tachyroute/blob/main/LICENSE"><img src="https://img.shields.io/github/license/DhanushNehru/tachyroute?style=flat-square" alt="License"></a>
 </p>
