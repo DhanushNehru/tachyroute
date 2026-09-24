@@ -4,11 +4,11 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/yourusername/tachyroute/graphs/contributors"><img src="https://img.shields.io/github/contributors/yourusername/tachyroute?style=flat-square" alt="Contributors"></a>
-  <a href="https://github.com/yourusername/tachyroute/network/members"><img src="https://img.shields.io/github/forks/yourusername/tachyroute?style=flat-square" alt="Forks"></a>
-  <a href="https://github.com/yourusername/tachyroute/stargazers"><img src="https://img.shields.io/github/stars/yourusername/tachyroute?style=flat-square" alt="Stars"></a>
-  <a href="https://github.com/yourusername/tachyroute/issues"><img src="https://img.shields.io/github/issues/yourusername/tachyroute?style=flat-square" alt="Issues"></a>
-  <a href="https://github.com/yourusername/tachyroute/blob/main/LICENSE"><img src="https://img.shields.io/github/license/yourusername/tachyroute?style=flat-square" alt="License"></a>
+  <a href="https://github.com/DhanushNehru/tachyroute/graphs/contributors"><img src="https://img.shields.io/github/contributors/DhanushNehru/tachyroute?style=flat-square" alt="Contributors"></a>
+  <a href="https://github.com/DhanushNehru/tachyroute/network/members"><img src="https://img.shields.io/github/forks/DhanushNehru/tachyroute?style=flat-square" alt="Forks"></a>
+  <a href="https://github.com/DhanushNehru/tachyroute/stargazers"><img src="https://img.shields.io/github/stars/DhanushNehru/tachyroute?style=flat-square" alt="Stars"></a>
+  <a href="https://github.com/DhanushNehru/tachyroute/issues"><img src="https://img.shields.io/github/issues/DhanushNehru/tachyroute?style=flat-square" alt="Issues"></a>
+  <a href="https://github.com/DhanushNehru/tachyroute/blob/main/LICENSE"><img src="https://img.shields.io/github/license/DhanushNehru/tachyroute?style=flat-square" alt="License"></a>
 </p>
 
 ---
@@ -95,7 +95,7 @@ We are building the future of structured AI decisions, and we want **you** to be
 Whether you want to optimize CUDA kernels, add new multimodality streams (vision/audio), or build native Rust bindings, there is a place for you here.
 
 *   **Read the [Contributing Guide](CONTRIBUTING.md)** to get started.
-*   **Join the discussion** in our [GitHub Issues](https://github.com/yourusername/tachyroute/issues).
+*   **Join the discussion** in our [GitHub Issues](https://github.com/DhanushNehru/tachyroute/issues).
 *   **Star the repo** to support the movement!
 
 ---

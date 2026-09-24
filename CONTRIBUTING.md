@@ -18,7 +18,7 @@ There are many ways to make an impact:
 1. Fork the repository on GitHub.
 2. Clone your fork locally:
    ```bash
-   git clone https://github.com/yourusername/tachyroute.git
+   git clone https://github.com/DhanushNehru/tachyroute.git
    cd tachyroute
    ```
 3. Create a virtual environment and install dependencies:
