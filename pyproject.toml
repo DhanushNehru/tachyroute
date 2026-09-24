@@ -10,7 +10,7 @@ readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "Apache 2.0" }
 authors = [
-  { name = "Your Name", email = "your.email@example.com" }
+  { name = "Dhanush Nehru", email = "dhanushnehru@example.com" }
 ]
 classifiers = [
     "Programming Language :: Python :: 3",
@@ -30,5 +30,5 @@ serve = ["fastapi", "uvicorn"]
 test = ["pytest"]
 
 [project.urls]
-"Homepage" = "https://github.com/yourusername/tachyroute"
-"Bug Tracker" = "https://github.com/yourusername/tachyroute/issues"
+"Homepage" = "https://github.com/DhanushNehru/tachyroute"
+"Bug Tracker" = "https://github.com/DhanushNehru/tachyroute/issues"
