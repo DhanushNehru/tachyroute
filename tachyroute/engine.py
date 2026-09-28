@@ -26,10 +26,16 @@ class Engine:
         q_type = question.get("type", "choice")
         
         if q_type == "choice":
-            labels = list(question["criteria"].keys())
+            criteria = question["criteria"]
+            if isinstance(criteria, dict):
+                labels = list(criteria.keys())
+            elif isinstance(criteria, list):
+                labels = criteria
+            else:
+                raise ValueError("criteria must be a dict or a list")
         elif q_type == "score":
             labels = question["criteria"]
-        elif q_type == "boolean":
+        elif q_type in ["boolean", "noul"]:
             labels = ["Yes", "No"]
         else:
             raise ValueError(f"Unknown question type: {q_type}")

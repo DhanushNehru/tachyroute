@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "tachyroute"
-version = "0.1.0"
+version = "0.1.1"
 description = "Multimodal, Explainable, Early-Exit Decision Engine"
 readme = "README.md"
 requires-python = ">=3.10"
@@ -22,7 +22,8 @@ dependencies = [
     "transformers>=4.40.0",
     "numpy",
     "huggingface-hub",
-    "pydantic>=2.0.0"
+    "pydantic>=2.0.0",
+    "rich>=13.0.0"
 ]
 
 [project.optional-dependencies]
