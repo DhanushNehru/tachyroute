@@ -1,0 +1,47 @@
+# Large local virtual environments (CRITICAL: prevents 1-2GB bloat)
+.venv/
+venv/
+env/
+ENV/
+*.venv/
+
+# Git history and metadata (can be hundreds of MBs)
+.git/
+.gitignore
+.gitattributes
+.github/
+
+# Python caches and compiled binaries
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Build artifacts & distribution wheels
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Editor configs & local temporary data
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Local secrets, dumps, models, and logs
+.env
+.env.*
+*.log
+*.sqlite3
+checkpoints/
+weights/
+*.onnx
+*.pt
+*.bin
