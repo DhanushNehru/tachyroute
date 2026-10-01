@@ -28,7 +28,7 @@ WORKDIR /app
 RUN groupadd -r -g 10001 appuser && \
     useradd -r -u 10001 -g appuser -d /app -s /sbin/nologin appuser
 
-COPY --from=builder /install /install
+COPY --from=builder /install /usr/local
 
 COPY --chown=appuser:appuser tachyroute ./tachyroute/
 
@@ -38,10 +38,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 
 COPY . .
 
-HEALTHCHECK CMD -fsS curl -f https://localhost:${PORT}/health || exit 1
-
 USER appuser
 
 EXPOSE 8000
 
-CMD ["python", "-m", "tachyroute.cli", "--host" "0.0.0.0", "--port", "8000"]
+CMD ["python", "-m", "tachyroute.cli", "--host", "0.0.0.0", "--port", "8000"]
