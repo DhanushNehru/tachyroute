@@ -13,6 +13,7 @@
   <a href="https://github.com/DhanushNehru/tachyroute/network/members"><img src="https://img.shields.io/github/forks/DhanushNehru/tachyroute?style=flat-square" alt="Forks"></a>
   <a href="https://github.com/DhanushNehru/tachyroute/issues"><img src="https://img.shields.io/github/issues/DhanushNehru/tachyroute?style=flat-square" alt="Issues"></a>
   <a href="https://github.com/DhanushNehru/tachyroute/blob/main/LICENSE"><img src="https://img.shields.io/github/license/DhanushNehru/tachyroute?style=flat-square" alt="License"></a>
+  <a href="https://discord.com/invite/Yn9g6KuWyA"><img src="https://img.shields.io/badge/Discord-Join%20the%20community-5865F2?style=flat-square&logo=discord&logoColor=white" alt="Join the Discord"></a>
 </p>
 
 ---
