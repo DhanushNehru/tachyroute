@@ -18,7 +18,7 @@
 
 ---
 
-<a href="https://www.producthunt.com/products/tachyroute?embed=true&amp;utm_source=badge-featured&amp;utm_medium=badge&amp;utm_campaign=badge-tachyroute-2" target="_blank" rel="noopener noreferrer"><img alt="TachyRoute - The Explainable, Multimodal, Early-Exit Decision Engine | Product Hunt" width="250" height="54" src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1268562&amp;theme=light&amp;t=1791105010836"></a>
+<a href="https://www.producthunt.com/products/tachyroute?embed=true&amp;utm_source=badge-featured&amp;utm_medium=badge&amp;utm_campaign=badge-tachyroute-2" target="_blank" rel="noopener noreferrer"><img alt="TachyRoute - The Explainable, Multimodal, Early-Exit Decision Engine | Product Hunt" width="250" height="54" src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1268562&amp;theme=light&amp;t=1791120981237"></a>
 
 **TachyRoute** is a revolutionary open-source Non-Autoregressive Decision Engine designed to redefine how machine learning systems make fast, explainable choices. By unifying multimodality, early-exit adaptive compute, and real-time evidence extraction, TachyRoute achieves state-of-the-art results across massive industry benchmarks in a single forward pass.
 
