@@ -1,9 +1,13 @@
+import logging
 import time
 import torch
 from transformers import pipeline
 from typing import Dict, Any
 
 from tachyroute.types import DecisionResult
+
+logger = logging.getLogger(__name__)
+
 
 class Engine:
     """
@@ -12,6 +16,8 @@ class Engine:
     def __init__(self, model_name: str = "facebook/bart-large-mnli", device: int = -1):
         self.model_name = model_name
         self.device = device
+        logger.info("Loading model %s on device %s", model_name, device)
+        load_start = time.time()
         # For a truly unique offering, we would wrap a custom PyTorch model with Early-Exit layers.
         # Here we use a zero-shot classifier as a baseline for the logic.
         self._classifier = pipeline(
@@ -19,6 +25,7 @@ class Engine:
             model=model_name,
             device=device
         )
+        logger.debug("Model %s loaded in %.1fms", model_name, (time.time() - load_start) * 1000)
 
     def predict(self, text: str, question: Dict[str, Any]) -> DecisionResult:
         start_time = time.time()
@@ -54,6 +61,11 @@ class Engine:
         
         # Simulate early exit logic: high confidence -> exit early
         exit_layer = 6 if confidence > 0.9 else 12 if confidence > 0.7 else 24
+
+        logger.debug(
+            "Predicted %r (confidence=%.3f, exit_layer=%d) in %.1fms",
+            top_label, confidence, exit_layer, (time.time() - start_time) * 1000,
+        )
 
         return DecisionResult(
             answer=top_label,

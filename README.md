@@ -85,6 +85,13 @@ print(f"Compute depth: {result['routing']['reason']}")
 # Compute depth: Routed based on text characteristics. Max compute depth: 6 layers.
 ```
 
+**Logging:** TachyRoute uses Python's standard `logging` module and is silent by default. To see model loading and routing logs, enable them in your application:
+
+```python
+import logging
+logging.basicConfig(level=logging.INFO)  # use logging.DEBUG for latency and model details
+```
+
 ## 📦 Installation
 
 Get started instantly:
