@@ -1,7 +1,11 @@
+import logging
 import time
 from typing import Dict, Any, Union
 from tachyroute.engine import Engine
 from tachyroute.types import RoutingMetadata
+
+logger = logging.getLogger(__name__)
+
 
 class Router:
     """
@@ -17,6 +21,7 @@ class Router:
 
     def load_model(self, name: str, hf_id: str):
         if name not in self.engines:
+            logger.info("Loading model '%s' (%s)", name, hf_id)
             self.engines[name] = Engine(model_name=hf_id)
 
     def route_request(self, text: str) -> str:
@@ -42,6 +47,7 @@ class Router:
             
         # Route
         chosen_model = model or self.route_request(text)
+        logger.info("Routing request to '%s' model", chosen_model)
         
         # Lazy load if needed
         if chosen_model not in self.engines:
@@ -65,6 +71,7 @@ class Router:
                 
         t1 = time.time()
         latency = (t1 - t0) * 1000
+        logger.debug("Routed to '%s' with %d question(s) in %.1fms", chosen_model, len(questions), latency)
         
         routing_info = RoutingMetadata(
             model=chosen_model,
